@@ -1,0 +1,225 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F2320 ]
+[d frameptr 4065 ]
+"37 C:\Users\fedor\Documents\dev\pic\bp.X\bypass_main.c
+[v _now_change now_change `(v  1 e 1 0 ]
+"96
+[v _all_on all_on `(v  1 e 1 0 ]
+"112
+[v _main main `(i  1 e 2 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"20 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.44\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"50 C:\Program Files (x86)\Microchip\xc8\v1.44\include\pic18f2320.h
+[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
+[s S83 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+"110
+[s S92 . 1 `uc 1 AN0 1 0 :1:0 
+`uc 1 AN1 1 0 :1:1 
+`uc 1 AN2 1 0 :1:2 
+`uc 1 AN3 1 0 :1:3 
+`uc 1 T0CKI 1 0 :1:4 
+`uc 1 AN4 1 0 :1:5 
+`uc 1 CLKO 1 0 :1:6 
+`uc 1 CLKI 1 0 :1:7 
+]
+[s S101 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 VREFM 1 0 :1:2 
+`uc 1 VREFP 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 SS 1 0 :1:5 
+`uc 1 OSC2 1 0 :1:6 
+`uc 1 OSC1 1 0 :1:7 
+]
+[s S109 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_SS 1 0 :1:5 
+]
+[s S112 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 CVREF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nSS 1 0 :1:5 
+]
+[s S117 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 LVDIN 1 0 :1:5 
+]
+[s S120 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 C1OUT 1 0 :1:4 
+`uc 1 C2OUT 1 0 :1:5 
+]
+[s S124 . 1 `uc 1 ULPWUIN 1 0 :1:0 
+`uc 1 . 1 0 :6:1 
+`uc 1 RJPU 1 0 :1:7 
+]
+[u S128 . 1 `S83 1 . 1 0 `S92 1 . 1 0 `S101 1 . 1 0 `S109 1 . 1 0 `S112 1 . 1 0 `S117 1 . 1 0 `S120 1 . 1 0 `S124 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES128  1 e 1 @3968 ]
+"260
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+[s S183 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"305
+[s S192 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 CCP2 1 0 :1:3 
+`uc 1 KBI0 1 0 :1:4 
+`uc 1 KBI1 1 0 :1:5 
+`uc 1 KBI2 1 0 :1:6 
+`uc 1 KBI3 1 0 :1:7 
+]
+[s S201 . 1 `uc 1 AN12 1 0 :1:0 
+`uc 1 AN10 1 0 :1:1 
+`uc 1 AN8 1 0 :1:2 
+`uc 1 AN9 1 0 :1:3 
+`uc 1 AN11 1 0 :1:4 
+`uc 1 PGM 1 0 :1:5 
+`uc 1 PGC 1 0 :1:6 
+`uc 1 PGD 1 0 :1:7 
+]
+[s S210 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2A 1 0 :1:3 
+]
+[s S213 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S216 . 1 `S183 1 . 1 0 `S192 1 . 1 0 `S201 1 . 1 0 `S210 1 . 1 0 `S213 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES216  1 e 1 @3969 ]
+"440
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+"956
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"1178
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"1400
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"2831
+[v _CMCON CMCON `VEuc  1 e 1 @4020 ]
+"3296
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"3381
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @4034 ]
+"4112
+[v _T1CON T1CON `VEuc  1 e 1 @4045 ]
+[s S39 . 1 `uc 1 SCS0 1 0 :1:0 
+`uc 1 SCS1 1 0 :1:1 
+`uc 1 IOFS 1 0 :1:2 
+`uc 1 OSTS 1 0 :1:3 
+`uc 1 IRCF 1 0 :3:4 
+`uc 1 IDLEN 1 0 :1:7 
+]
+"4480
+[s S46 . 1 `uc 1 SCS 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 FLTS 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 IRCF0 1 0 :1:4 
+`uc 1 IRCF1 1 0 :1:5 
+`uc 1 IRCF2 1 0 :1:6 
+]
+[u S54 . 1 `S39 1 . 1 0 `S46 1 . 1 0 ]
+[v _OSCCONbits OSCCONbits `VES54  1 e 1 @4051 ]
+"5790
+[v _LATA1 LATA1 `VEb  1 e 0 @31817 ]
+"5792
+[v _LATA2 LATA2 `VEb  1 e 0 @31818 ]
+"5798
+[v _LATA5 LATA5 `VEb  1 e 0 @31821 ]
+"5814
+[v _LATB5 LATB5 `VEb  1 e 0 @31829 ]
+"5820
+[v _LATC0 LATC0 `VEb  1 e 0 @31832 ]
+"5822
+[v _LATC1 LATC1 `VEb  1 e 0 @31833 ]
+"5824
+[v _LATC2 LATC2 `VEb  1 e 0 @31834 ]
+"5826
+[v _LATC3 LATC3 `VEb  1 e 0 @31835 ]
+"5828
+[v _LATC4 LATC4 `VEb  1 e 0 @31836 ]
+"5830
+[v _LATC5 LATC5 `VEb  1 e 0 @31837 ]
+"5832
+[v _LATC6 LATC6 `VEb  1 e 0 @31838 ]
+"5834
+[v _LATC7 LATC7 `VEb  1 e 0 @31839 ]
+"112 C:\Users\fedor\Documents\dev\pic\bp.X\bypass_main.c
+[v _main main `(i  1 e 2 0 ]
+{
+"134
+[v main@press_switch_ar press_switch_ar `[3]uc  1 a 3 29 ]
+"128
+[v main@state state `uc  1 a 1 28 ]
+"142
+[v main@e2_state e2_state `uc  1 a 1 27 ]
+"139
+[v main@e1_state e1_state `uc  1 a 1 26 ]
+"131
+[v main@changestate changestate `uc  1 a 1 25 ]
+"129
+[v main@pred_state pred_state `uc  1 a 1 24 ]
+"143
+[v main@change_e2_state change_e2_state `uc  1 a 1 23 ]
+"140
+[v main@change_e1_state change_e1_state `uc  1 a 1 22 ]
+"137
+[v main@LOOP LOOP `uc  1 a 1 21 ]
+"136
+[v main@SERIES SERIES `uc  1 a 1 20 ]
+"132
+[v main@press_switch press_switch `uc  1 a 1 19 ]
+"130
+[v main@pred_pred_state pred_pred_state `uc  1 a 1 18 ]
+"132
+[v main@F2606 F2606 `[3]uc  1 s 3 F2606 ]
+"224
+} 0
+"96
+[v _all_on all_on `(v  1 e 1 0 ]
+{
+[v all_on@state state `i  1 p 2 6 ]
+[v all_on@gluh gluh `uc  1 p 1 8 ]
+[v all_on@ef1 ef1 `uc  1 p 1 9 ]
+[v all_on@ef2 ef2 `uc  1 p 1 10 ]
+"110
+} 0
+"37
+[v _now_change now_change `(v  1 e 1 0 ]
+{
+[v now_change@state state `i  1 p 2 0 ]
+[v now_change@ef1 ef1 `uc  1 p 1 2 ]
+[v now_change@ef2 ef2 `uc  1 p 1 3 ]
+"94
+} 0
